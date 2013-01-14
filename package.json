@@ -1,0 +1,40 @@
+{
+  "name": "grunt-filehash",
+  "description": "Rewrites links to resources and updates templates so files are always fresh",
+  "version": "0.1.0",
+  "homepage": "https://github.com/toddself/grunt-filehash",
+  "author": {
+    "name": "Todd Kennedy",
+    "email": "todd@updater.com",
+    "url": "http://blog.selfassembled.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/toddself/grunt-filehash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/toddself/grunt-filehash/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/toddself/grunt-filehash/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1rc5",
+    "grunt-contrib-clean": "~0.4.0rc5",
+    "grunt-contrib-nodeunit": "~0.1.2rc5",
+    "grunt": "~0.4.0rc5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
